@@ -48,7 +48,7 @@ $(BIN_DIR)/$(TARGET).bin: $(BIN_DIR)/$(TARGET).elf
 	@echo "$^ => $@"
 
 $(BIN_DIR)/$(TARGET).elf: $(OBJECTS)
-	@$(CC) $(CPU) $(LDFLAGS) -o $@ $^
+	@$(CC) $(CPU) -o $@ $^ $(LDFLAGS)
 	@echo "$^ => $@"
 
 $(BIN_DIR):
