@@ -12,7 +12,7 @@
 ## Compiling Instructions
 >Make sure your discovery board is plugged into your computer, and that you have the required tools installed. Then use your shell to clone the git repository and compile/flash your board.
 ```
-git clone https://github.com/mkrolbass/echo.git
+git clone https://github.com/kaljrozz/echo.git
 cd echo
 make flash
 picocom -b 9600 -l -r path/to/ftdi
